@@ -6,24 +6,23 @@
 
 * admin routines in the admin sub-directory
 * various routines and inc files in the main directory as follows:
+    - blog.inc.php - displays the most recent blog posts in full
+    - bloglist.inc.php - for inclusion where requires, lists the titles of the most recent blog posts
+    - blogpost.inc.php - to display a single post
+    - preview.php - used by the admin routines to preview a post
 
- - blog.inc.php - displays the most recent blog posts in full
- - bloglist.inc.php - for inclusion where requires, lists the titles of the most recent blog posts
- - blogpost.inc.php - to display a single post
- - preview.php - used by the admin routines to preview a post
+    None of the above files should be changed as they may get overwritten by a new version of **the:blog**. If changes are required then the routines should be renamed and/or relocated.
 
-   None of the above files should be changed as they may get overwritten by a new version of **the:blog**. If changes are required then the routines should be renamed and/or relocated.
+    Also included are:
 
-   Also included are:
+    - index.php - simply displays blog posts as required
+    - blog.css - basic CSS
+    - listposts.php - example page to list blogs
+    - showpost.php - example page to display a single post
+    - a copy of Parsedown.php is also required; this is not included in the package - see http://parsedown.org/ for details and to download
+    - README.md - this file
 
- - index.php - simply displays blog posts as required
- - blog.css - basic CSS
- - listposts.php - example page to list blogs
- - showpost.php - example page to display a single post
- - a copy of Parsedown.php is also required; this is not included in the package - see http://parsedown.org/ for details and to download
- - README.md - this file
-
-   When updating, these routines should NOT be replaced with the new version in case any changes have been made. The version of Parsedown should be updated from time to time as necessary.
+    When updating, these routines should NOT be replaced with the new version in case any changes have been made. The version of Parsedown should be updated from time to time as necessary.
 
 The admin routines should not be changed and will be replaced with any new release.
 
