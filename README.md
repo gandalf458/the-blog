@@ -5,7 +5,7 @@
 **the:blog** comprises:
 
 * admin routines in the admin sub-directory
-* various routines and inc files in the main directory as follows:
+* various scripts and include files in the main directory as follows:
 
     - blog.inc.php - displays the most recent blog posts in full
     - bloglist.inc.php - lists the titles of the most recent blog posts
@@ -13,18 +13,18 @@
     - preview.php - used by the admin routines to preview a post
     - README.md - this file
 
-    None of the above files should be changed as they may get overwritten by a new version of **the:blog**. If changes are required then the routines should be renamed and/or relocated.
+    None of the above files should be changed as they will be overwritten by a new version of **the:blog**. If changes are required then the files should be renamed and/or relocated.
 
     Also included are:
 
-    - index.php - simply displays blog posts as required
+    - index.php - blog home page; simply displays blog posts as required
     - blog.css - basic CSS
     - listposts.php - example page to list blogs
     - showpost.php - example page to display a single post
 
-    A copy of Parsedown.php is also required; this is not included in the package - see http://parsedown.org/ for details and to download.
-
     When updating, these routines should NOT be replaced with the new version in case any changes have been made. The version of Parsedown should be updated from time to time as necessary.
+
+    A copy of Parsedown.php is also required; this is not included in the package - see http://parsedown.org/ for details and to download.
 
 The admin routines should not be changed and will be replaced with any new release.
 
