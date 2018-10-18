@@ -28,7 +28,7 @@
 
 The admin routines should not be changed and will be replaced with any new release.
 
-An .htaccess and .htpasswd file will be needed to protect the admin directory.
+An `.htaccess` and `.htpasswd` file will be needed to protect the admin directory.
 
 Documentation is given at http://gandalf458.co.uk/theblog/
 
