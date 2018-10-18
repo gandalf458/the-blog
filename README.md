@@ -8,7 +8,7 @@
 * various routines and inc files in the main directory as follows:
 
     - blog.inc.php - displays the most recent blog posts in full
-    - bloglist.inc.php - for inclusion where requires, lists the titles of the most recent blog posts
+    - bloglist.inc.php - lists the titles of the most recent blog posts
     - blogpost.inc.php - to display a single post
     - preview.php - used by the admin routines to preview a post
     - README.md - this file
