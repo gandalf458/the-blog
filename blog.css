@@ -1,0 +1,83 @@
+/*
+ * the:blog
+ *
+ * Basic CSS for the:blog posts. To be changed as needed.
+ * The relavent styles in this sheet could be 
+ * placed in the site's main style sheet.
+ *
+ * Revision 0.1
+ * Copyright, Graham R Irwin
+ * For full information, see the license.txt file that was distributed
+ * with this software.
+ */
+
+body {
+  font: normal 1em/1.3 Verdana, Arial, Helvetica, sans-serif;
+  color: #333;
+}
+
+h1 {
+  border-bottom: 2px solid;
+  padding-bottom: 5px;
+  width: 30%;
+}
+
+a {
+  color: #00c;
+}
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+.wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.post {
+  border-bottom: 1px solid gray;
+}
+
+.post blockquote {
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 15px;
+  border-left: 3px solid #ec6754;
+}
+
+.post img {
+  display: block;
+  margin: 1em auto;
+  max-width: 360px;
+  width: 100%;
+  height: auto;
+}
+
+.post code {
+  font-size: 120%;
+  font-family: monospace;
+}
+
+.post pre code {
+  display: inline-block;
+  padding: 10px;
+  border: 2px solid #6c6;
+  border-radius: 3px;
+  background-color: #f8f8f8;
+}
+
+.post ul,
+.post ol {
+  padding-left: 1.5em;
+}
+
+.post .pdate {
+  font-style: italic;
+  font-size: small;
+}
+
+.postlist {
+  list-style: none;
+  padding-left: 0;
+}

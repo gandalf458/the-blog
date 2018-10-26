@@ -32,6 +32,6 @@ An `.htaccess` and `.htpasswd` file will be needed to protect the admin director
 
 Documentation is given at http://gandalf458.co.uk/theblog/
 
-Contributions would be welcome from other developers.
+The scripts are being released despite being a bit rough round the edges. Contributions from other developers would be welcome.
 
-_Last updated: 2018-10-18._
+_Last updated: 2018-10-19._
